@@ -2,9 +2,9 @@
   "name": "projetdevops",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "dev": "nodemon index.js"
-},
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IKRAMELHADI/Projet-Devops.git"
@@ -18,7 +18,9 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "mongoose": "^8.13.2",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.9"
   }
 }
